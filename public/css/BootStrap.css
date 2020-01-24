@@ -1,0 +1,41 @@
+.fot_ul{
+margin-left :30%;;
+}
+.fot_li{
+   list-style-type: none; 
+}
+
+.footer{
+    width:100%;background-color:#0F2547;height:250px;
+}
+
+.social{width:100%;height: 100px;}
+ul{float: left;}
+li{float: left; padding:15px;}
+.social ul li img{
+    border:1px solid#776a5f;
+}
+.social ul li img:hover{
+    width:40px; height:40px;
+}
+#copyright{
+   text-align: center;color:#776a5f;font-size: 18px; font-style: bold;
+}
+#copyright span{
+    color:#406185;
+}
+/*********************Second Update  date 10/11/2019********************************/
+
+@media only screen and (min-width:60px) and (max-width :800px){
+    
+.social{width:100%;height: 100px;margin-top:20px;margin-left:-10%;}
+
+.social ul li{float: left;margin:0px; padding: 0px;}
+.social ul li img{
+ width:40%;height: 19px;
+}
+.social ul li img:hover{
+    width:50%; height:20px;
+}
+}
+
